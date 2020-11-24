@@ -1,0 +1,3 @@
+This catalog contains HTML code for a calculator that counts the price of a chair.
+You may find it useful when writing additional functions for this project.
+But wait with it until the free week.

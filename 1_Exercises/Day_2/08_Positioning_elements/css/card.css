@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Tangerine', cursive;
+}
+
+.card {
+    background: #FEF5E5;
+    padding: 20px;
+    width: 500px;
+    margin: 50px auto;
+}
+
+.card__border {
+    border: 1px solid gold;
+    padding: 3px;
+}
+
+.card__heading,
+.card__description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card__heading {
+    font-size: 48px;
+}
+
+.card__description {
+    font-size: 36px;
+    margin-bottom: 20px;
+}

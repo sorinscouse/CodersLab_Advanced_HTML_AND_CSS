@@ -1,0 +1,52 @@
+.accordion {
+    width: 380px;
+    margin: 20px auto;
+}
+
+/* Setting the same font for all headers */
+.accordion h2,
+.accordion h3,
+.accordion h4 {
+    font-family: "News Cycle", sans-serif;
+}
+
+/* Setting different styles for each header separately */
+.accordion h1 {
+    padding: 15px 20px;
+    background-color: #333;
+    font-family: Lobster, sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #1ABC9C;
+}
+
+.accordion h2 {
+    padding: 5px 25px;
+    background-color: #1ABC9C;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.accordion h3 {
+    padding: 5px 30px;
+    background-color: #B94152;
+    font-size: .9rem;
+    color: #DDD;
+}
+
+.accordion h4 {
+    padding: 5px 35px;
+    background-color: #FFC25A;
+    font-size: .9rem;
+    color: #AF720A;
+}
+
+/* Setting appropriate properties for all paragraphs */
+.accordion p {
+    padding: 15px 35px;
+    background-color: #DDD;
+    font-family: "Georgia", serif;
+    font-size: .8rem;
+    color: #333;
+    line-height: 1.3rem;
+}

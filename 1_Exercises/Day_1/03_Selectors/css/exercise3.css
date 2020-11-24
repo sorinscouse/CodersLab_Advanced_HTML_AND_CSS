@@ -1,0 +1,154 @@
+/*--------------------------------------------
+Reset margin and padding for all elements
+--------------------------------------------*/
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------------------------------------------
+Element with `panel` class should have the following styles
+--------------------------------------------*/
+{
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+
+
+/*--------------------------------------------
+Give the upper form the following styles
+--------------------------------------------*/
+{
+    text-align: center;
+    padding:30px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.3), 0 2px 6px rgba(0,0,0,0.05);
+    border-radius: 5px;
+    display: flex;
+    margin: 50px auto;
+    background: #4AA1F1;
+    width:auto;
+}
+
+
+
+/* --------------------------------------------
+Styles for the element that enables inserting text in the first form
+--------------------------------------------*/
+{
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    margin-bottom: 0;
+    border:0;
+}
+
+
+/*--------------------------------------------
+Styles for the button in the first form
+--------------------------------------------*/
+{
+    width:140px;
+    border-radius: 0 5px 5px 0;
+    background: #08526e;
+}
+
+
+/*--------------------------------------------
+Styles for the element with comments
+--------------------------------------------*/
+{
+    list-style: none;
+    font-family: sans-serif;
+}
+
+
+/*--------------------------------------------
+Styles for each comment
+--------------------------------------------*/
+{
+    text-align: center;
+    margin-bottom:10px;
+    padding:30px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    color:#444;
+    overflow: hidden;
+    position: relative;
+    border-left-width: 2px;
+}
+
+
+/*--------------------------------------------
+Styles for each strong element in the comments
+--------------------------------------------*/
+{
+    color: rgb(74,161,241);
+}
+
+
+/*
+--------------------------------------------
+The Second Form
+Your styles above should be written in such a way that they do not affect the styles for the second form (below)
+--------------------------------------------
+*/
+header {
+    position: relative;
+    margin: 50px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+
+form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+input,
+textarea {
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    outline: none;
+    color: #726659;
+    border: solid 1px #ddd;
+    transition: all 0.3s ease-in-out;
+    margin-bottom:20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+textarea {
+    padding:15px;
+    height: 110px;
+}
+
+button {
+    border-radius: 3px;
+    width: 100%;
+    height:50px;
+    padding: 0;
+    border:0;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background: rgb(74,161,241);
+}
+
+section:nth-of-type(2) {
+    background: #f0f0f0;
+    padding: 50px 0;
+    margin-top:150px;
+}

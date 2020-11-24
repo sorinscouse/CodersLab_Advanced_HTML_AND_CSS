@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    background: #E3E3E3;
+}
+
+.box__image {
+    width: 100%;
+}

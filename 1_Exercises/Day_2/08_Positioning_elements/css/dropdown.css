@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #E6474A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: #52364A;
+}
+
+.header__container {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav-list {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.nav-list__item {
+    display: inline-block;
+    margin:0 20px;
+}
+
+.nav-list__link {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #E6474A;
+    text-decoration: none;
+    padding: 40px 0;
+    display: block;
+}
